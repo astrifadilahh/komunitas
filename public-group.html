@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Off-Canvas Navigation | Nifty - Admin Template</title>
+    <title>Komunitas - Public Group</title>
 
 
     <!--STYLESHEET-->
@@ -279,9 +279,26 @@
                     </ul>
                     
                 </div>
+                
+                <!--================================-->
+                <!--End Navbar Dropdown-->
+            </div>
+
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+
+
+
+        <div class="boxed">
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div id="content-container">
+                <!--Page content-->
+                <!--===================================================-->
                 <div class="col-lg-12">
-                    
-                        <a href="#"><div class="panel panel-dark panel-colorful col-sm-1" style="margin: 10px; margin-left: 20px">
+                        <a href="#" ><div class="panel panel-dark panel-colorful col-sm-1 " style="margin: 10px; margin-left: 20px">
                             <div class="pad-all text-center">
                                 <img class="img-circle img-sm" src="img/profile-photos/1.png" alt="Profile Picture">
                             </div>
@@ -346,37 +363,21 @@
 
                         <a href="#"><div class="panel bg-gray-dark panel-colorful col-sm-1" style="margin: 10px">
                             <div class="pad-all text-center">
-                                <img class="img-circle img-sm" src="img/profile-photos/1.png" alt="Profile Picture">
+                                <div class="demo-pli-layout-grid icon-lg icon-3x" style="margin-top: 9px"></div>
+                                
                             </div>
-                            <p align="center">Komunitas</p>
+                            <p align="center">List Grup</p>
                         </div></a>
                 </div>
-                <!--================================-->
-                <!--End Navbar Dropdown-->
-            </div>
-        </header>
-        <!--===================================================-->
-        <!--END NAVBAR-->
-
-
-
-
-        <div class="boxed">
-            <!--CONTENT CONTAINER-->
-            <!--===================================================-->
-            <div id="content-container">
-                <!--Page content-->
-                <!--===================================================-->
-                <br>
-                <br>
                 <div id="page-content">
                 </div>
             </div>
-					<hr class="new-section-sm bord-no">
+
+				<hr class="new-section-sm bord-no">
 					<div class="row">
 					    <div class="col-lg-2">
 					        <div class="panel panel-body text-center">
-					        <div class="panel media pad-all bg-info">
+					        <div class="panel media pad-all bg-info" style="margin-top: 25px">
                                 <div class="media-left">
                                     <span class="icon-wra icon-wap-sm bg-ifo">
                                     <i class="ti-file icon-3x"></i>
@@ -387,47 +388,56 @@
                                     <p class="mar-no">Total Postingan</p>
                                 </div>
                             </div>
+                            </div>
 
-					        <div class="panel-body">
+                            <div class="panel panel-body text-center">
                                 <h4>Admin</h4>
                                 <div class="pad-btm">
-                                <img class="img-circle img-md" src="img/profile-photos/1.png" alt="Profile Picture">
-					            <h5>Astri Fadilah</h5>
+                                    <img class="img-circle img-md" src="img/profile-photos/1.png" alt="Profile Picture">
+                                    <h5>Astri Fadilah</h5>
                                 </div>
 
-                                <hr>
-                                <button class="btn btn-mint btn-rounded btn-labeled"><i class="btn-label demo-pli-computer-secure"></i> Event</button> <hr>
-                                <button class="btn btn-mint btn-rounded btn-labeled"><i class="btn-label demo-pli-file-jpg"></i> Gallery</button>
-					        </div>
-					        </div>
-					    </div>
+                                <ul id="mainnav-menu" class="list-group">
+                                    <a href="#">
+                                        <i class="demo-pli-home"></i>
+                                        <span class="menu-title">Home</span>
+                                    </a> 
 
+                                    <a href="#">
+                                        <i class="demo-pli-computer-secure"></i>
+                                        <span class="menu-title">Event</span>
+                                    </a>            
+                        
+                                    <a href="#">
+                                        <i class="demo-pli-photo-2"></i>
+                                        <span class="menu-title">Gallery</span>
+                                    </a>                                    
+                                </ul>
+                            </div>
+                    
+                    
+
+
+                        </div>
 
                         <div class="col-lg-7">
                             <div class="panel panel-body">
-                                <div class="row">
-                       
-                            <h4>Publish Post</h4>
-                    
-                            <!-- Timeline -->
-                            <!--===================================================-->
-                            <div class="timeline">
-                    
-                                <!-- Timeline header -->
-                                <div class="timeline-header">
-                                    <button class="btn btn-success timeline-header-title">New</button>
-                                </div>
-                                <div class="timeline-entry">
-                                    <div class="timeline-stat">
-                                        <div class="timeline-icon"><img src="img/profile-photos/9.png" alt="Image"></div>
-                                        <div class="timeline-time">3 Hours ago</div>
+                                <h4>Publish Post</h4>
+                                <div class="timeline">
+                                    <div class="timeline-header">
+                                        <button data-target="#demo-default-modal" data-toggle="modal" class="btn btn-success timeline-header-title">New</button>
                                     </div>
-                                    <div class="timeline-label">
+                                    <div class="timeline-entry">
+                                        <div class="timeline-stat">
+                                            <div class="timeline-icon"><img src="img/profile-photos/9.png" alt="Image"></div>
+                                            <div class="timeline-time">3 Hours ago</div>
+                                        </div>
+                                        <div class="timeline-label">
                                         <p class="mar-no pad-btm"><a href="#" class="btn-link">Lisa D.</a> commented on <a href="#" class="text-semibold"><i>Astri Fadilah</i> post</a></p>
                                         <blockquote class="bq-sm bq-open mar-no">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</blockquote>
                                     </div>
-                                </div>
-                                <div class="timeline-entry">
+                                    </div>
+                                    <div class="timeline-entry">
                                     <div class="timeline-stat">
                                         <div class="timeline-icon"><img src="img/profile-photos/3.png" alt="Image"></div>
                                         <div class="timeline-time">15:45</div>
@@ -456,37 +466,36 @@
                                     </div>
                                 </div>
                                 <div class="timeline-entry">
-                            <div class="timeline-stat">
-                                <div class="timeline-icon">
-                                    <img alt="Profile picture" src="img/profile-photos/8.png">
+                                    <div class="timeline-stat">
+                                        <div class="timeline-icon">
+                                            <img alt="Profile picture" src="img/profile-photos/8.png">
+                                        </div>
+                                    <div class="timeline-time">30 Min ago</div>
+                                    </div>
+                                    <div class="timeline-label">
+                                        <p class="mar-no pad-btm">
+                                        <a class="btn-link" href="#">Maria J.</a> shared an image</p>
+                                    <div class="img-holder">
+                                        <img alt="Image" src="img/thumbs/img2.jpg">
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class="timeline-time">30 Min ago</div>
-                            </div>
-                            <div class="timeline-label">
-                                <p class="mar-no pad-btm">
-                                    <a class="btn-link" href="#">Maria J.</a> shared an image</p>
-                                <div class="img-holder">
-                                    <img alt="Image" src="img/thumbs/img2.jpg">
                                 </div>
-                            </div>
-                        </div>
-                            </div>
-                            <!--===================================================-->
-                            <!-- End Timeline -->
-                        </div>
                             </div>
                         </div>
                     
+
+
 
                     <div class="col-lg-3">
                         <div class="panel panel-body text-center">
                             <div class="pad-btm">
                                 <img class="img-circle img-lg" src="img/profile-photos/1.png" alt="Profile Picture">
                                 <h4>Nama Komunitas</h4>
-                                <h5>1763 Member Bergabung</h5>
-                                <div class="panel-footer">
+                                <h5>20/50 Anggota</h5>
+                                
                                         <button class="btn btn-success">Bergabung</button>
-                                </div></center>
+                                </center>
 
                                 <hr>
                                 <div class="panel-body demo-nifty-btn" >
@@ -495,8 +504,34 @@
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="panel panel-body">
+                        <h4>Terakhir Diupload</h4>
+                        <img src="img/images.jpg" height="130px" width="130px"  style="margin-left: 3px; margin-bottom: 8px">
+                        <img src="img/images (1).jpg" height="130px" width="130px"  style="margin-left: 15px; margin-bottom: 8px">
+                        <img src="img/images.jpg" height="130px" width="130px"  style="margin-left: 3px; margin-bottom: 8px">
+                        <img src="img/images (1).jpg" height="130px" width="130px"  style="margin-left: 15px; margin-bottom: 8px">
+                        <img src="img/images.jpg" height="130px" width="130px"  style="margin-left: 3px">
+                        <img src="img/images (1).jpg" height="130px" width="130px"  style="margin-left: 15px">
+                        </div>
+                        
                     </div>
                 </div>
+
+                
+                    
+                        
+                    
+
+                        
+
+                
+
+
+
+
+                        
                 <!--===================================================-->
                 <!--End page content-->
             </div>
@@ -650,6 +685,41 @@
             <!--END MAIN NAVIGATION-->
 
         </div>
+
+        <div class="modal fade" id="demo-default-modal" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!--Modal header-->
+                <div class="modal-header">
+                    <div class="panel-heading">
+                        <h4 class="panel-title text-semibold">Create Post</h4>
+                    </div>
+                    <form class="form-horizontal">
+                        <div class="panel-body">
+                            <textarea placeholder="Write Something..." rows="13" class="form-control"></textarea>
+                            <br>
+                            <h5 class="panel-title text-semibold">Upload Gambar
+                            <span class="btn btn-primary btn-file">
+                                            Browse... <input type="file"></span></h5>
+                        </div>
+
+                        
+                        
+                        <div class="panel-footer text-right">
+                            <button class="btn btn-default">Send message</button>
+                        </div>
+                    </form>
+
+                </div>
+
+                
+
+                <!--Modal footer-->
+                
+            </div>
+        </div>
+    </div>
 
         
         
